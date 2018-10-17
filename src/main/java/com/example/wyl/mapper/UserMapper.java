@@ -1,7 +1,9 @@
 package com.example.wyl.mapper;
 
 import com.example.wyl.bean.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface UserMapper {
     int deleteByPrimaryKey(Integer userId);
 
